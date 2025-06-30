@@ -6,9 +6,9 @@ from skimage.transform import resize
 
 
 def main():
-    model = load_model("E:\VSCode\BoneFractureCLSF\model.keras")
+    model = load_model("C:\_PROJECTS\BoneFractureCLSF\model.keras")
 
-    st.header('Detect Bone Fracture from X-ray Images')
+    st.header('Detect Fracture')
 
     #File Uploader
     uploaded_file = st.file_uploader("Upload an image",type=['jpg','png','jpeg'])

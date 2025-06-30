@@ -34,7 +34,7 @@ selected = option_menu(
 if selected == "Overview":
     home.show()
 elif selected == "Detect Fracture":
-    app.main()  # Make sure app.py has a main() function wrapping its logic
+    app.main()
 elif selected == "Connect":
     about.show()
 
